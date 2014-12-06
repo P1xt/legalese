@@ -2,156 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7652d5d5-fb17-4f17-b40e-9963ee3bf9b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/User.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/ionicons/_ionicons-animation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/ionicons/_ionicons-font.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/ionicons/_ionicons-icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/ionicons/_ionicons-variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/aviary.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap-social/bootstrap-social.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/clockwork.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/contact.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/contact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/themes/default.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/facebook.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partials/flash.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/themes/flatly.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partials/footer.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/account/forgot.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/foursquare.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/github.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/home.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/instagram.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/ionicons/ionicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/themes/ios7.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery-2.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/lastfm.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/linkedin.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/account/login.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mocha.opts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/themes/modern.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partials/navbar.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/nyt.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/account/profile.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/account/reset.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/scraping.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/secrets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/account/signup.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/spinning.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/steam.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/stripe.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/tumblr.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/twilio.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/twitter.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/font-awesome/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/venmo.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lib/bootstrap/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/api/yahoo.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/legalese_node_modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/legalese.iml" afterPath="$PROJECT_DIR$/.idea/legalese.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="legalese.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,11 +24,33 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="legalese" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.068268016" vertical-offset="0" max-vertical-offset="24390">
+              <caret line="3" column="69" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -207,7 +84,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,6 +104,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,12 +130,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="285" y="77" width="1307" height="960" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -293,5 +171,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.068268016" vertical-offset="0" max-vertical-offset="24390">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
