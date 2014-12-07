@@ -18,6 +18,8 @@ https://github.com/sahat/hackathon-starter
 
 The bootstrap theme in use is Flatly (http://bootswatch.com/flatly/)
 
+The graphics for the ship, powerups, etc were all created by Kenny at www.kenny.nl and downloaded from http://opengameart.org/content/space-shooter-redux
+
 Setup on Koding VM
 -------
 For posterity, this is the setup I did on a clean VM to run this app.

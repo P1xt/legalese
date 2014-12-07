@@ -4,8 +4,19 @@ block content
   .container
     .page-header
       h3 Fluffle demo
-      .row
-        .div#legalese
+      div.row#score
+        div.col-md-9
+        div.col-md-1
+          h4 Score:
+        div.col-md-2#score
+      div.row#demo
+        div.overlay#legalese
+        div.content#text
+
+
+
 
 block extraFooter
+  != js('lib/phaser.min.js')
   != js('legalese')
+
