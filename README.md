@@ -28,6 +28,7 @@ sudo apt-get upgrade
 sudo apt-get install nodejs npm mongodb git
 sudo service mongodb start
 Edited /etc/mongodb.conf to add "smallfiles=true" at the bottom of the file
+Edited /etc/mongodb.conf to turn off journaling ... it would not work with journaling on, even with smallfiles
 sudo service mongodb restart
 
 cd Applications
