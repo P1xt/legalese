@@ -18,7 +18,7 @@ https://github.com/sahat/hackathon-starter
 
 The bootstrap theme in use is Flatly (http://bootswatch.com/flatly/)
 
-Setup on coding VM
+Setup on Koding VM
 -------
 For posterity, this is the setup I did on a clean VM to run this app.
 
@@ -28,7 +28,19 @@ sudo apt-get install nodejs npm mongodb git
 sudo service mongodb start
 Edited /etc/mongodb.conf to add "smallfiles=true" at the bottom of the file
 sudo service mongodb restart
-sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
+
+cd Applications
+git clone https://github.com/P1xt/legalese.git
+cd legalese
+npm install
+npm install forever
+
+then add the following to the mongo db init file /etc/init/mongodb.conf and reboot(sudo reboot)
+
+post-start script
+    forever start /home/p1xt/Applications/legalese/app.js
+    iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
+end script
 
 
 
