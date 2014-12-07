@@ -22,6 +22,7 @@ Setup on Koding VM
 -------
 For posterity, this is the setup I did on a clean VM to run this app.
 
+```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install nodejs npm mongodb git
@@ -42,7 +43,7 @@ post-start script
     iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 end script
 
-
+```
 
 This app was bootstrapped using the starter kit found here:
 https://github.com/sahat/hackathon-starter
