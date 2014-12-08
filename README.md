@@ -14,6 +14,10 @@ Using the Express.js framework
 And, Jade templating
 And, the Phaser.io game framework
 
+The document I used in the demo is the terms of use for world of warcraft by Blizzard Entertainment.
+I obscured all their identifying information but didn't want to leave off my acknowledgements that
+they provide an AMAZING wall of text that 10 million people have agreed to and (maybe) 200 have read.
+
 It pulls much of the baseline structure from the nodejs starter kit which may be found here:
 https://github.com/sahat/hackathon-starter
 
