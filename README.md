@@ -22,16 +22,13 @@ The graphics for the ship, powerups, etc were all created by Kenny at www.kenny.
 
 Setup on Koding VM
 -------
-For posterity, this is the setup I did on a clean VM to run this app.
+For posterity, this is the setup I did on a clean VM to run this app. \
+(Note, I removed a ton of auth and database code from the project when \
+I found that running the full starter app with mongodb exceeded the \
+disk space available on the koding free vm).
 
 ```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install nodejs npm mongodb git
-sudo service mongodb start
-Edited /etc/mongodb.conf to add "smallfiles=true" at the bottom of the file
-Edited /etc/mongodb.conf to turn off journaling ... it would not work with journaling on, even with smallfiles
-sudo service mongodb restart
+sudo apt-get install nodejs npm git
 
 cd Applications
 git clone https://github.com/P1xt/legalese.git
