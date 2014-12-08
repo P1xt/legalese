@@ -37,7 +37,6 @@ $(document).ready(function() {
   var player;
   var bullets;
   var bulletTime = 0;
-  var firingTimer = 0;
   var cursors;
   var score = 0;
 
@@ -229,7 +228,6 @@ $(document).ready(function() {
 
     //  When a bullet hits an wordMeteor we kill them both
     bullet.kill();
-    //bullet.destroy();
     for (var i = startLine; i < endLine; i++) {
       var str1 = "\\b"+wordMeteor.wordText+"\\b";
       var re = new RegExp(str1, "g");
@@ -240,7 +238,6 @@ $(document).ready(function() {
     activeWords.remove(wordMeteor.wordText);
     lineChanged = true;
     wordMeteor.kill();
-    //wordMeteor.destroy();
     //  Increase the score
     score += 20;
   }
