@@ -12,6 +12,7 @@ The tech
 This is a nodejs application
 Using the Express.js framework
 And, Jade templating
+And, the Phaser.io game framework
 
 It pulls much of the baseline structure from the nodejs starter kit which may be found here:
 https://github.com/sahat/hackathon-starter
@@ -19,6 +20,13 @@ https://github.com/sahat/hackathon-starter
 The bootstrap theme in use is Flatly (http://bootswatch.com/flatly/)
 
 The graphics for the ship, powerups, etc were all created by Kenny at www.kenny.nl and downloaded from http://opengameart.org/content/space-shooter-redux
+
+I used the Phaser.io examples (available on  github as part of the Phaser.io download)
+extensively as a learning tool as I'd not done any project work in phaser (or any html5
+games framework, for that matter) previously.
+
+I watched about a billion videos on Javascript coding and frameworks on codeschool.com in the
+past couple weeks. THose dudes are awesome!
 
 Setup on Koding VM
 -------
@@ -36,17 +44,26 @@ cd legalese
 npm install
 npm install forever
 
-then add the following to the mongo db init file /etc/init/mongodb.conf and reboot(sudo reboot)
+then add the following to an init init file /etc/init/legalese.conf and reboot(sudo reboot)
 
-post-start script
-    forever start /home/p1xt/Applications/legalese/app.js
-    iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
-end script
+# legalese
+#
+# koding hackathon
+
+description     "legalese"
+
+start on startup
+
+forever start /home/p1xt/Applications/legalese/app.js
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 
 ```
 
 This app was bootstrapped using the starter kit found here:
 https://github.com/sahat/hackathon-starter
+
+I removed all of the auth and mongodb as it wouldn't fit in the disk size available on Koding VM.
+Mongodb was especially huge.
 
 The following is the License as found on the starter kit:
 
